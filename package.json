@@ -59,5 +59,8 @@
     "gas": "forge snapshot --isolate --mc Benchmark --gas-report --diff .gas-snapshot > gasreport.txt",
     "forge:snapshot": "forge snapshot --check",
     "aabenchmark": "forge test --mc AABenchmarkPrepare && forge test --mc ProfileThirdwebAccount -vvv"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3.15.0"
   }
 }

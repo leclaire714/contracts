@@ -1,6 +1,6 @@
-<p align="center">
+
 <br />
-<a href="https://thirdweb.com"><img src="https://github.com/thirdweb-dev/typescript-sdk/blob/main/logo.svg?raw=true" width="200" alt=""/></a>
+<a href="http<p align="center">s://thirdweb.com"><img src="https://github.com/thirdweb-dev/typescript-sdk/blob/main/logo.svg?raw=true" width="200" alt=""/></a>
 <br />
 </p>
 <h1 align="center">thirdweb Contracts</h1>
@@ -15,7 +15,8 @@
 
 ## Installation
 
-```shell
+```
+shell
 # Forge projects
 forge install https://github.com/thirdweb-dev/contracts
 
@@ -63,7 +64,6 @@ contracts
 3. `forge test`: run the tests
 
 This repository is a [forge](https://github.com/foundry-rs/foundry/tree/master/forge) project.
-
 First install the relevant dependencies of the project:
 
 ```bash
